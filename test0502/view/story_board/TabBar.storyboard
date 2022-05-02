@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Tab Bar Controller-->
+        <scene sceneID="4tC-rX-90G">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeTabBarController" id="T4L-qL-1u6" customClass="HomeTabBarController" customModule="test0502" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Fb-ns-KBR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemBrownColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oJc-9k-8XV" kind="relationship" relationship="viewControllers" id="HDz-rb-lzZ"/>
+                        <segue destination="vwD-7G-gjd" kind="relationship" relationship="viewControllers" id="yKG-tX-YVk"/>
+                        <segue destination="0Km-U0-xOg" kind="relationship" relationship="viewControllers" id="OvQ-Sj-SL0"/>
+                        <segue destination="YYG-6o-M8T" kind="relationship" relationship="viewControllers" id="vGN-NU-T8D"/>
+                        <segue destination="Ii5-iI-RJ4" kind="relationship" relationship="viewControllers" id="xeY-cR-tob"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Reh-n9-hPU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-165" y="-518"/>
+        </scene>
+        <!--CommunityViewController-->
+        <scene sceneID="GMK-K5-G5T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Community" referencedIdentifier="CommunityViewController" id="YYG-6o-M8T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="33D-G7-aKf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1DO-Pl-8xe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="-388"/>
+        </scene>
+        <!--ShoppingViewController-->
+        <scene sceneID="W1i-BL-a1W">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Shopping" referencedIdentifier="ShoppingViewController" id="Ii5-iI-RJ4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Knt-WP-ltW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lol-C4-IUq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="-289"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="NAW-gw-2hw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeViewController" id="0Km-U0-xOg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Bwb-BE-DTB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hV-cJ-Jqn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="-475"/>
+        </scene>
+        <!--LocationViewController-->
+        <scene sceneID="CMT-jS-YWj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Location" referencedIdentifier="LocationViewController" id="oJc-9k-8XV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="NX5-qT-pOZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dP3-dQ-cDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="655" y="-648"/>
+        </scene>
+        <!--LiveViewController-->
+        <scene sceneID="277-0q-I1h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Live" referencedIdentifier="LiveViewController" id="vwD-7G-gjd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="0Ck-5Y-Ukx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xq9-6O-OD2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="-546"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

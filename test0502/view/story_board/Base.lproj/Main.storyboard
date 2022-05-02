@@ -68,7 +68,7 @@
         <!--HomeTabBarController-->
         <scene sceneID="VGF-db-6NQ">
             <objects>
-                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeTabBarController" id="lIH-0S-QLt" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="TabBar" referencedIdentifier="HomeTabBarController" id="lIH-0S-QLt" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="gxW-o4-8x7"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Lf-4U-ykO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
